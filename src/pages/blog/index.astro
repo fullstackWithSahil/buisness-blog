@@ -2,11 +2,12 @@
 import Blogcard from "@/components/ui/Blogcard.astro";
 import Layout from "@/layouts/Layout.astro";
 import emailnewsletter from "../../../public/newsletter.png";
+import testing from "../../../../public/testing.png";
 ---
 
 <Layout title="buisnesstools-blog">
   <Blogcard
-	alt="emailnewsletter"
+	  alt="emailnewsletter"
     img={emailnewsletter}
     title="Email newsLetter service"
     link="email"
@@ -16,5 +17,15 @@ import emailnewsletter from "../../../public/newsletter.png";
       "How to Monetize Your Newsletter?",
       "why every buisness needs it?",
     ]}
+  />
+  <Blogcard
+      alt="Why i dont test my code"
+      img={testing}
+      link="testing"
+      list={[
+        "It Doesn't Add Any Value for the End User",
+        "Minor Bugs Detected While Testing Might Not Be Worth Fixing",
+        "You Can Always Change Your Code Based on User Feedback",
+      ]}
   />
 </Layout>
