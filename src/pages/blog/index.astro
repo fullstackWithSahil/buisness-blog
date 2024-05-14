@@ -1,0 +1,20 @@
+---
+import Blogcard from "@/components/ui/Blogcard.astro";
+import Layout from "@/layouts/Layout.astro";
+import emailnewsletter from "../../../public/newsletter.png";
+---
+
+<Layout title="buisnesstools-blog">
+  <Blogcard
+	alt="emailnewsletter"
+    img={emailnewsletter}
+    title="Email newsLetter service"
+    link="email"
+    list={[
+      "What is a Newsletter Service?",
+      "Why You Should Start a Newsletter?",
+      "How to Monetize Your Newsletter?",
+      "why every buisness needs it?",
+    ]}
+  />
+</Layout>
