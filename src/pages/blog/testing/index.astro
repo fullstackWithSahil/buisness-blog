@@ -5,51 +5,106 @@ import testing from "../../../../public/testing.png";
 ---
 
 <Layout title="testing">
-    <section class="p-2 max-w-2xl mx-auto">
-        <h1 class="text-4xl text-center font-semibold">
-            Why I Don&apos;t Test My Code: A Controversial Take on Development
-        </h1>
-        <div class="flex justify-center items-center">
-            <Image src={testing} alt={"testing"} class="w-full"/>
-        </div>
-        <p>
-            In the ever-evolving world of web development, there&apos;s a spectrum of philosophies and approaches to building and maintaining software. Among these, the practice of testing code has long been heralded as a best practice. However, some developers, including myself, hold a different view. Here&apos;s why I don't test my code:
-        </p>
-    </section>
-    <section class="p-2 max-w-2xl mx-auto">
-        <h1 class="text-3xl"> It Doesn&apos;t Add Any Value for the End User</h1>
-        <p>
-            At the end of the day, the primary objective of any software is to deliver value to its users. From my perspective, writing tests doesn&apos;t directly contribute to this goal. Users care about the features and the overall experience the software provides, not whether the codebase has an extensive suite of tests. Every minute spent writing tests is a minute not spent on building new features or improving the user interface.
-        </p>
-        <p>
-            When a user interacts with an application, they aren&apos;t thinking about the underlying code quality. They&apos;re focused on whether the application meets their needs and how intuitive and enjoyable the experience is. In a fast-paced development environment, especially in startups or small teams, prioritizing features and user experience can be more impactful than ensuring every piece of code is rigorously tested.
-        </p>
-    </section>
-    <section class="p-2 max-w-2xl mx-auto">
-        <h1 class="text-3xl">Minor Bugs Detected While Testing Might Not Be Worth Fixing</h1>
-        <p>
-            In the process of testing, you might uncover minor bugs that, in the grand scheme of things, have little to no impact on the user experience. Fixing these can sometimes be an exercise in diminishing returns. Minor bugs, while perhaps annoying to developers, often go unnoticed by users or don&apos;t affect their overall experience.
-        </p>
-        <p>
-            Moreover, the time and resources spent on identifying and fixing these minor issues could be better utilized on more significant aspects of the project. For example, enhancing a feature that is widely used or addressing major bugs that do affect user experience. Focusing on these higher-priority areas can lead to a more impactful use of development time and resources.
-        </p>
-    </section>
-    <section class="p-2 max-w-2xl mx-auto">
-        <h1 class="text-3xl">You Can Always Change Your Code Based on User Feedback</h1>
-        <p>
-            One of the cornerstones of modern development practices is the ability to iterate quickly based on user feedback. Instead of trying to anticipate every possible issue through testing, why not rely on actual user feedback to guide improvements?
-        </p>
-        <p>
-            Users are the best testers. They will use your application in ways you might never have imagined, uncovering bugs and issues that formal testing might miss. By deploying code and gathering real-world feedback, you can prioritize fixes and enhancements based on what truly matters to your users. This approach can lead to a more dynamic and responsive development cycle, where real user needs dictate the direction of the project.
-        </p>
-    </section>
-    <section class="p-2 max-w-2xl mx-auto">
-        <h1 class="text-3xl">Conclusion</h1>
-        <p>
-            This philosophy isn&apos;t for everyone, and it certainly has its critics. Traditionalists might argue that neglecting tests is reckless and unprofessional. However, in my experience, focusing on delivering immediate user value, addressing significant bugs, and iterating based on user feedback can lead to a more efficient and user-centric development process.
-        </p>
-        <p>
-            As with any approach, it&apos;s important to find a balance that works for your team and your project. Testing can be valuable, but it&apos;s not the only way to ensure quality. By prioritizing user needs and feedback, you can create software that truly resonates with your audience.
-        </p>
-    </section>
+  <section class="p-2 max-w-2xl mx-auto">
+    <h1 class="text-4xl text-center font-semibold">
+      Why I Don&apos;t Test My Code: A Controversial Take on Development
+    </h1>
+    <div class="flex justify-center items-center">
+      <Image src={testing} alt={"testing"} class="w-full" />
+    </div>
+    <p>
+      In the ever-evolving world of web development, there&apos;s a spectrum of
+      philosophies and approaches to building and maintaining software. Among
+      these, the practice of testing code has long been heralded as a best
+      practice. However, some developers, including myself, hold a different
+      view. Here&apos;s why I don't test my code:
+    </p>
+  </section>
+  <section class="p-2 max-w-2xl mx-auto">
+    <h1 class="text-3xl">It Doesn&apos;t Add Any Value for the End User</h1>
+    <p>
+      Let&apos;s face it, users couldn&apos;t care less if you&apos;ve got a
+      thousand tests ensuring your code is as flawless as a diamond. They just
+      want their app to work and look pretty. Think about it: when was the last
+      time a user complimented you on your robust suite of unit tests? Exactly.
+      They care about shiny new features and a seamless user experience, not
+      whether your codebase is tighter than a drum.
+    </p>
+    <p>
+      When a user interacts with an application, they aren&apos;t thinking about
+      the underlying code quality. They&apos;re focused on whether the
+      application meets their needs and how intuitive and enjoyable the
+      experience is. In a fast-paced development environment, especially in
+      startups or small teams, prioritizing features and user experience can be
+      more impactful than ensuring every piece of code is rigorously tested.
+    </p>
+    <p>
+      In my book, every minute spent writing tests is a minute not spent adding
+      the Dark Mode everyone&apos;s been clamoring for. And we all know, dark
+      mode is the real MVP.
+    </p>
+  </section>
+  <section class="p-2 max-w-2xl mx-auto">
+    <h1 class="text-3xl">
+      Minor Bugs Detected While Testing Might Not Be Worth Fixing
+    </h1>
+    <p>
+      You know those tiny, inconsequential bugs that tests love to unearth?
+      Yeah, those are like the parsley garnish on a plate of spaghetti—totally
+      unnecessary. Sure, they might be annoying, but do they really ruin the
+      meal? Not really.
+    </p>
+    <p>
+      Besides, spending hours fixing a bug that only happens if you press a
+      series of buttons in a sequence that only a contortionist would find
+      comfortable is just not the best use of time. Prioritizing major bugs that
+      users actually notice (and care about) makes a lot more sense. Let&apos;s
+      save the bug hunts for the ones that matter.
+    </p>
+    <br />
+    <p>
+      <span class="text-blod text-lg">Test</span>:It doesn&apos;t work on
+      microsoft edge <br />
+      <span class="text-blod text-lg">Me</span>:Why the fuck are you using egde
+      ?
+    </p>
+  </section>
+  <section class="p-2 max-w-2xl mx-auto">
+    <h1 class="text-3xl">
+      You Can Always Change Your Code Based on User Feedback
+    </h1>
+    <p>
+      Here&apos;s a radical idea: let your users test your code! After all,
+      they&apos;re going to find the bugs anyway, and usually in the most
+      creative ways possible. Why not harness that free QA resource?
+    </p>
+    <p>
+      Users are the best testers. They will use your application in ways you
+      might never have imagined, uncovering bugs and issues that formal testing
+      might miss. By deploying code and gathering real-world feedback, you can
+      prioritize fixes and enhancements based on what truly matters to your
+      users. This approach can lead to a more dynamic and responsive development
+      cycle, where real user needs dictate the direction of the project.
+    </p>
+  </section>
+  <section class="p-2 max-w-2xl mx-auto">
+    <h1 class="text-3xl">Conclusion</h1>
+    <p>
+      This philosophy isn&apos;t for everyone, and it certainly has its critics.
+      Traditionalists might argue that neglecting tests is reckless and
+      unprofessional. However, in my experience, focusing on delivering
+      immediate user value, addressing significant bugs, and iterating based on
+      user feedback can lead to a more efficient and user-centric development
+      process.Especially if you are a startup code quality should be your last
+      concern . You should be able to roll out a product ASAP and get users to
+      signup .You don&apos;t want to spend a year developing a product nobody
+      want&apos;s to use.
+    </p>
+    <p>
+      As with any approach, it&apos;s important to find a balance that works for
+      your team and your project. Testing can be valuable, but it&apos;s not the
+      only way to ensure quality. By prioritizing user needs and feedback, you
+      can create software that truly resonates with your audience.
+    </p>
+  </section>
 </Layout>
